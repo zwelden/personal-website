@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Zach Welden personal website
+A personal/portfolio website. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
