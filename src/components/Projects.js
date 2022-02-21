@@ -8,7 +8,7 @@ const Projects = (props) => {
         { 
             title: 'USMNT Club Watch',
             description: 'Track all the club level games for players eligible to be called up to the USMNT',
-            tech: ['Ruby', 'Rails', 'Javascript', 'Digital Ocean', 'Linux'],
+            tech: ['Ruby', 'Rails', 'Javascript', 'Postgres', 'Digital Ocean', 'Linux'],
             link: 'https://usmntclubwatch.com',
             github: ''
         },

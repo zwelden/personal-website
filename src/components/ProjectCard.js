@@ -18,7 +18,7 @@ const ProjectCard = ({title, description, tech, link, github}) => {
                         <div class="">
                             { 
                                 tech.map((techName, index) => {
-                                    return <div class="inline-block mr-2 text-slate-400">[ <span key={index} class="text-slate-900">{techName}</span> ]</div>
+                                    return <div class="inline-block mr-2 text-slate-400" key={ index }>[ <span key={index} class="text-slate-900">{techName}</span> ]</div>
                                 })
                             }
                         </div>
@@ -27,14 +27,14 @@ const ProjectCard = ({title, description, tech, link, github}) => {
                     {(link && link.length > 0) && 
                         <div class="mb-2">
                             <div class="text-xs text-slate-500 uppercase line-hight-1">Link</div>
-                            <a class="text-sky-600 hover:text-sky-500" href={link}>{link}</a>
+                            <a class="text-sky-600 hover:text-sky-500" target="_blank" rel="noreferrer" href={link}>{link}</a>
                         </div>
                     }
 
                     {(github && github.length > 0) && 
                         <div class="mb-2">
                             <div class="text-xs text-slate-500 uppercase line-hight-1">Github</div>
-                            <a class="text-sky-600 hover:text-sky-500" href={github}>{github}</a>
+                            <a class="text-sky-600 hover:text-sky-500" target="_blank" rel="noreferrer" href={github}>{github}</a>
                         </div>
                     }
                 </div>
