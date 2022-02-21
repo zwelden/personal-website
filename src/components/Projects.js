@@ -16,7 +16,7 @@ const Projects = (props) => {
             title: 'Chess Demo',
             description: 'A two player chess game with rule enforcement and move order tracking',
             tech: ['Javascript', 'React', 'Netlify'],
-            link: 'stupefied-elion-9d2f79.netlify.app',
+            link: 'https://stupefied-elion-9d2f79.netlify.app/',
             github: 'https://github.com/zwelden/react-chessboard'
         },
         {
@@ -37,7 +37,7 @@ const Projects = (props) => {
             title: 'Pomodoro App',
             description: 'A customizable pomodoro timer',
             tech: ['Javascript', 'Vue', 'Netlify'],
-            link: ' peaceful-bose-2cc581.netlify.app',
+            link: ' https://peaceful-bose-2cc581.netlify.app/',
             github: 'https://github.com/zwelden/pomodoro-app'
         }
 
