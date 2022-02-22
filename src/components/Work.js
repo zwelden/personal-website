@@ -8,7 +8,7 @@ const Work = (props) => {
         {
             company: 'Tenstreet LLC',
             title: 'Software Engineer',
-            description: 'Trucking and construction industry ATS, recruiting, compliance, and safety platform. Lead developer for the FMCSA/CSA monitoring, construction documents and forms exchange, and "Insights" retention survey products.',
+            description: 'Trucking and construction industry ATS, recruiting, compliance, and safety platform. Lead developer for the FMCSA/CSA infraction monitoring product, construction document exchange product, and "Insights" retention survey and analytics product.',
             tech: ['PHP', 'Javascript', 'Linux', 'MySQL'],
             start: '2018',
             end: 'Current',
