@@ -9,13 +9,13 @@ const WorkCard = ({company, title, description, tech, start, end, link}) => {
                 <div class="bg-slate-100 p-1 text-lg font-normal text-slate-700">{ company } - <span class="italic">{ title }</span></div>
                 <div class="p-2">
                     <div class="mb-2">
-                        <div class="text-xs text-slate-500 uppercase line-height-1">Description</div>
-                        <div class="">{ description }</div>
+                        <div class="text-xs text-slate-500 uppercase line-height-1">Start - End</div>
+                        <div class="">{ start } - { end } </div>
                     </div>
 
                     <div class="mb-2">
-                        <div class="text-xs text-slate-500 uppercase line-height-1">Start - End</div>
-                        <div class="">{ start } - { end } </div>
+                        <div class="text-xs text-slate-500 uppercase line-height-1">Description</div>
+                        <div class="">{ description }</div>
                     </div>
 
                     <div class="mb-2">
