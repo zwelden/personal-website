@@ -8,8 +8,8 @@ const Work = (props) => {
         {
             company: 'Tenstreet LLC',
             title: 'Software Engineer',
-            description: 'Trucking and construction industry ATS, recruiting, compliance, and safety platform. Lead developer for the FMCSA/CSA infraction monitoring product, construction document exchange product, and "Insights" retention survey and analytics product.',
-            tech: ['PHP', 'Javascript', 'Linux', 'MySQL'],
+            description: 'Trucking and construction industry ATS, recruiting, compliance, and safety platform. Project lead developer for the FMCSA/CSA driving infraction monitoring product, construction document exchange product, and "Insights" retention survey and analytics product.',
+            tech: ['PHP', 'Javascript', 'Linux', 'MySQL', 'Redis', 'Git'],
             start: '2018',
             end: 'Current',
             link: 'https://dashboard.tenstreet.com'
@@ -18,7 +18,7 @@ const Work = (props) => {
             company: 'Brothers & Company',
             title: 'Front-end Developer',
             description: 'Ad Agency. Developed, maintained, and extended responsive and engaging web projects for medium to large cap businesses clients.',
-            tech: ['PHP', 'Javascript', 'Laravel', 'Drupal', 'Magento', 'MySQL'],
+            tech: ['PHP', 'Javascript', 'Laravel', 'Drupal', 'Magento', 'MySQL', 'Git'],
             start: '2017',
             end: '2018',
             link: ''
